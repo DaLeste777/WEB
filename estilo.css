@@ -1,0 +1,42 @@
+body {
+    background-image: url("tiro.png");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center center; /* Center the image */
+    background-repeat: repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+.menu{
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+    color: rgb(0, 38, 255);
+}
+
+ul li { 
+    display: inline; 
+} 
+
+ 
+.inicio{
+    text-shadow: 0.2em 0.5em 0.1em #600,
+      -0.3em 0.1em 0.1em #060,
+      0.4em -0.3em 0.1em #006;
+    text-align: center;
+    font-size: 100px;
+    font-style: Arial;
+    color: rgb(255, 255, 255);
+}
+
+.lorem1{
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-size: 25px;
+    text-align: justify;
+    color: rgb(255, 72, 0);
+}
+
+.imagem{
+    width: 99%; /* com isso imagem ocupará toda a largura da tela. Se colocarmos height: 100% também, a imagem irá distorcer */
+    position: absolute;
+}
